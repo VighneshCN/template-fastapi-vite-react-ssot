@@ -1,0 +1,22 @@
+name: Feature Request
+description: Propose a feature
+title: "[FEAT] "
+labels: ["feature"]
+body:
+  - type: textarea
+    attributes:
+      label: User story
+      value: "As a ... I want ... so that ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Non-goals

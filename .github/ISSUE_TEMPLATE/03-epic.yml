@@ -1,0 +1,19 @@
+name: Epic
+description: Track a larger body of work
+title: "[EPIC] "
+labels: ["epic"]
+body:
+  - type: textarea
+    attributes:
+      label: Goal
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Milestones
+      value: |
+        - [ ]
+        - [ ]
+  - type: textarea
+    attributes:
+      label: Dependencies / Risks
