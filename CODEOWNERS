@@ -1,5 +1,3 @@
-# Example:
-# *       @your-github-handle
-# /docs/  @your-github-handle
-# /.github/ @your-github-handle
-* @REPLACE_WITH_OWNER
+* @VighneshCN
+/docs/ @VighneshCN
+/.github/ @VighneshCN
