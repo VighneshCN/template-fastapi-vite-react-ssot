@@ -20,4 +20,4 @@
 
 ## ADR
 - ADR link:
-- If not required, justification:
+- If not required, write exactly: **ADR not required because:** <reason>
