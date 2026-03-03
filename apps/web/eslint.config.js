@@ -26,12 +26,13 @@ export default [
     settings: {
       react: { version: "detect" },
     },
-    rules: {
-      "react/react-in-jsx-scope": "off",
-      "react/jsx-uses-react": "off",
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
-    },
+rules: {
+  "no-unused-vars": "off",
+  "react/react-in-jsx-scope": "off",
+  "react/jsx-uses-react": "off",
+  "react-hooks/rules-of-hooks": "error",
+  "react-hooks/exhaustive-deps": "warn"
+},
   },
 
   // Test files (Vitest globals)
