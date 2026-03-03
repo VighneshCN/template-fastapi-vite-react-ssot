@@ -53,6 +53,12 @@ jobs:
         run: |
           pytest -q
 
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}/apps/api
+        run: |
+          pytest -q
+
   frontend:
     name: Frontend (lint/test/build)
     runs-on: ubuntu-latest
